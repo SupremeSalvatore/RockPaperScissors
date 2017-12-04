@@ -1,0 +1,51 @@
+*{
+   margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+header{
+   background: #fff;
+}
+header h1{
+   color:#34495e;
+   font-size: 2.5rem;
+}
+body{
+   background: #34495e;
+   color: #fff;
+}
+img{
+   color:#fff;
+/*   background: #fff;*/
+}
+
+.scoreboard{
+   font-size: 1.5rem;
+   border:3px solid #fff;
+   max-width: 400px;
+   margin-top: 20px !important;
+
+}
+.badge{
+   background: #c0392b;
+   min-width: 50px;
+}
+
+.choice{
+   border:3px solid #fff;
+   border-radius: 50%;
+   transition: all 0.3s ease;
+}
+.choice:hover{
+   cursor:pointer;
+   background:#fff;
+}
+.result{
+   height: 140px;
+}
+.result p{
+   font-size: 1.5rem;
+}

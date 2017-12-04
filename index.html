@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+   <meta name="author" content="">
+   <meta name="viewport" content="width=device-width">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <title>Rock, Paper, Scissors</title>
+</head>
+
+<body>
+   <header>
+      <h1 class="text-center p-3">Rock Paper Scissors</h1>
+   </header>
+   <div class="container text-center">
+      <div class="scoreboard m-auto">
+         <div id="user" class="badge p-1 m-2">User</div>
+         <span id="userScore">0</span>:<span id="computerScore">0</span>
+         <div id="computer" class="badge p-1 m-2">Computer</div>
+      </div>
+      <div class="result mt-2 p-2" id="resulting">
+         <p id="result"></p>
+         <p id="computersChoice" class=""></p>
+      </div>
+      <div class="choices d-flex justify-content-center">
+         <div class="choice choice1 p-2 m-2" id="rock">
+            <img src="images/rock.png" alt="">
+         </div>
+         <div class="choice choice2 p-2 m-2" id="paper">
+            <img src="images/paper.png" alt="">
+         </div>
+         <div class="choice choice3 p-2 m-2" id="scissors">
+            <img src="images/scissors.png" alt="">
+         </div>
+      </div>
+   
+
+   <p>Select your weapon!</p>
+   <button class="btn btn-success" id="reset">Reset</button>
+   </div>
+
+
+
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+   <script src="javascript/main.js"></script>
+</body>
+
+</html>
